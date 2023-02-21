@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PROJETO_2.0.css">
+    <title> Agenda </title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="https://cdn0.iconfinder.com/data/icons/network-and-technology/48/66-512.png" alt="logo_agenda">
+            <h1> Agenda de Clientes </h1>
+        </div>
+        <h2> Faça seu Cadastro </h2>
+    </header>
+    <div class="container">
+        <form id="formulario">
+            <input id="nome" type="text" required placeholder="Seu Nome">
+            <input id="numero" type="tel" required placeholder="Número de Telefone">
+            <button type="submit"> Adicionar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="nome_tabela"> - - - </td>
+                    <td id="numero_tabela"> - - - </td>
+                </tr>
+            </tbody>
+            <tfoot>
+    
+            </tfoot>
+        </table>
+    </div>
+    <script src="./PROJERO_2.js"> </script>
+</body>
+</html>
